@@ -1,0 +1,105 @@
+body{
+    margin: 100px;
+    font-family: overpass,Arial,sans-serif;
+}
+
+.container-acceso{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.hdr{
+    width: 50%;
+}
+
+.logo-Moneda{
+    /* position: relative; */
+    width: 800px;
+    height: 800px;
+}
+
+.acceso{
+    position: relative; 
+   
+
+}
+
+.acceso h1{
+    font-size: 90px;
+}
+.acceso h3{
+    margin-top: -65px;
+    margin-left: 580px;
+    font-size: 50px;
+    color: green;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+}
+
+.login input{
+    margin: 15px;
+    margin-top: 50px;
+    margin-left: 130px;
+    width: 550px;
+    height: 50px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 30px;
+    background-color: #E2E0E0;
+    border-radius: 50px;
+    border: 1px solid #D9D9D9;
+    padding: 15px;
+    box-shadow: 10px 10px 10px ;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    
+}
+
+.login img{
+    background-color: #FFE600 ;
+    transition: background-color .7s;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid rgb(218, 165, 32);
+    margin-top: 40px;
+    margin-left: 350px;
+   
+    
+} 
+.login img:hover{
+    cursor: pointer;
+    background-color: rgba(105, 152, 167, 0.719);
+    border: 5px solid #00eaff;
+}
+
+.ftr{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.call{
+    display: flex;
+    font-size: 20px;   
+}
+
+.ftr img{ 
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px 0px 5px;
+    cursor: pointer;  
+}
+
+.rrss{
+    margin: 0px 50px 0px 50px;
+   
+}
+
+
+
+
