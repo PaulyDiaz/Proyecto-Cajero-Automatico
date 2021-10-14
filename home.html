@@ -9,23 +9,23 @@
     <title>Cajero Automatico</title>
 </head>
 <body>
-    <div class="container-acceso">
-        <header class="hdr">
-            <img class="logo-Moneda" src="./img/criptp.png" alt="logo de cripto moneda">
-        </header>
-        <main class="acceso">
-            <h1>Cripto digital Bank</h1>
-            <h3>Tu banco</h3>
-            <div class="login">
-                <input type="text" placeholder="Usuario" minlength="6" maxlength="8" required>
-                <input type="password" placeholder="Clave" minlength="6" maxlength="8" required>
-                <!-- <button></button> -->
-                <img src="./img/huella.png" type="button" id="btnIngresar" onclick="validar()">
-                
-                
-            </div>
-        </main>  
-    </div>
+    <header class="hdr-home">
+        <img src="./img/criptp.png" alt="logo de cripto moneda">
+        <h1>Cripto digital Bank</h1>
+        <h3>Tu banco</h3>
+        <div class="welcome">
+            <h2>Buen día xxxxx, te damos la bienvenida</h2>
+        </div>
+    </header>
+    <main class="main-home">
+        <h2>cta. Nº </h2>
+        <h3>Saldo: </h3>
+    </main>
+    <section class="btns-home">
+        <button>Consultar Saldo</button>
+        <button>Ingresar monto</button>
+        <button>Retirar monto</button>
+    </section>
     <footer class="ftr">
         <div class="call">
             <img src="./img-redes/calling.png" alt="llamanos">
@@ -38,6 +38,6 @@
             <img src="./img-redes/youtube.png" alt="youtube">
         </div>
     </footer>
-    <script src="./main.js"></script>
+    <script src="./home.js"></script>
 </body>
 </html>
