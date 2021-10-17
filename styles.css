@@ -16,7 +16,7 @@ body{
 .logo-Moneda{
     /* position: relative; */
     width: 800px;
-    height: 800px;
+    height: 780px;
 }
 
 .acceso{
@@ -97,10 +97,42 @@ body{
 
 .rrss{
     margin: 0px 50px 0px 50px;
-   
+    opacity: 80%;
 }
 
+.rrss1{
+    opacity: 80%;
+}
+.rrss1:hover{
+    opacity: 100%;
+}
+
+.rrss2{
+    opacity: 80%;
+}
+
+.rrss2:hover{
+    opacity: 100%;
+}
+.rrss3{
+    opacity: 70%;
+}
+
+.rrss3:hover{
+    opacity: 150%;
+}
+.rrss4{
+    opacity: 80%;
+}
+.rrss4:hover{
+    opacity: 100%;
+}
+
+
+
+
 /* HTML Home  */
+
 
 .hdr-home{
     display: flex;
